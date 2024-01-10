@@ -1,0 +1,215 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AnketDuzenleController.cs" />
+    <Compile Remove="Models\AnketModel.cs" />
+    <Compile Remove="Models\ApplicationUser.cs" />
+    <Compile Remove="Views\Home\HomeController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\CikisYap.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\layout-dark.css" />
+    <None Include="wwwroot\assets\css\layout-rtl.css" />
+    <None Include="wwwroot\assets\css\plugins\animate.min.css" />
+    <None Include="wwwroot\assets\css\plugins\bootstrap.min.css" />
+    <None Include="wwwroot\assets\css\plugins\perfect-scrollbar.css" />
+    <None Include="wwwroot\assets\css\plugins\prism-coy.css" />
+    <None Include="wwwroot\assets\css\style.css" />
+    <None Include="wwwroot\assets\fonts\fa-brands-400.eot" />
+    <None Include="wwwroot\assets\fonts\fa-brands-400.svg" />
+    <None Include="wwwroot\assets\fonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\assets\fonts\fa-brands-400.woff" />
+    <None Include="wwwroot\assets\fonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\assets\fonts\fa-regular-400.eot" />
+    <None Include="wwwroot\assets\fonts\fa-regular-400.svg" />
+    <None Include="wwwroot\assets\fonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\assets\fonts\fa-regular-400.woff" />
+    <None Include="wwwroot\assets\fonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\assets\fonts\fa-solid-900.eot" />
+    <None Include="wwwroot\assets\fonts\fa-solid-900.svg" />
+    <None Include="wwwroot\assets\fonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\assets\fonts\fa-solid-900.woff" />
+    <None Include="wwwroot\assets\fonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\assets\fonts\feather.eot" />
+    <None Include="wwwroot\assets\fonts\feather.svg" />
+    <None Include="wwwroot\assets\fonts\feather.ttf" />
+    <None Include="wwwroot\assets\fonts\feather.woff" />
+    <None Include="wwwroot\assets\fonts\Flaticon.eot" />
+    <None Include="wwwroot\assets\fonts\Flaticon.svg" />
+    <None Include="wwwroot\assets\fonts\Flaticon.ttf" />
+    <None Include="wwwroot\assets\fonts\Flaticon.woff" />
+    <None Include="wwwroot\assets\fonts\Flaticon.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem8YaGs126MiZpBA-UFUZ0bbck.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem8YaGs126MiZpBA-UFVp0bbck.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem8YaGs126MiZpBA-UFVZ0b.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem8YaGs126MiZpBA-UFW50bbck.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem8YaGs126MiZpBA-UFWJ0bbck.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem8YaGs126MiZpBA-UFWp0bbck.woff2" />
+    <None Include="wwwroot\assets\fonts\opensans\mem8YaGs126MiZpBA-UFWZ0bbck.woff2" />
+    <None Include="wwwroot\assets\fonts\pct.eot" />
+    <None Include="wwwroot\assets\fonts\pct.svg" />
+    <None Include="wwwroot\assets\fonts\pct.ttf" />
+    <None Include="wwwroot\assets\fonts\pct.woff" />
+    <None Include="wwwroot\assets\images\auth\auth-logo-dark.png" />
+    <None Include="wwwroot\assets\images\auth\auth-logo.png" />
+    <None Include="wwwroot\assets\images\auth\img-auth-big.jpg" />
+    <None Include="wwwroot\assets\images\browser\chrome.png" />
+    <None Include="wwwroot\assets\images\browser\firefox.png" />
+    <None Include="wwwroot\assets\images\browser\ie.png" />
+    <None Include="wwwroot\assets\images\browser\opera.png" />
+    <None Include="wwwroot\assets\images\browser\safari.png" />
+    <None Include="wwwroot\assets\images\cd-arrow.svg" />
+    <None Include="wwwroot\assets\images\close.png" />
+    <None Include="wwwroot\assets\images\complete.png" />
+    <None Include="wwwroot\assets\images\favicon.ico" />
+    <None Include="wwwroot\assets\images\gallery-grid\img-grd-gal-1.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\img-grd-gal-2.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\img-grd-gal-3.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\img-grd-gal-4.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\img-grd-gal-5.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\img-grd-gal-6.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\masonry-1.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\masonry-2.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\masonry-3.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\masonry-4.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\masonry-5.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\masonry-6.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\masonry-7.jpg" />
+    <None Include="wwwroot\assets\images\gallery-grid\masonry-8.jpg" />
+    <None Include="wwwroot\assets\images\hover-effect\triangle.svg" />
+    <None Include="wwwroot\assets\images\hover-effect\triangle2.svg" />
+    <None Include="wwwroot\assets\images\light-box\l1.jpg" />
+    <None Include="wwwroot\assets\images\light-box\l2.jpg" />
+    <None Include="wwwroot\assets\images\light-box\l3.jpg" />
+    <None Include="wwwroot\assets\images\light-box\l4.jpg" />
+    <None Include="wwwroot\assets\images\light-box\l5.jpg" />
+    <None Include="wwwroot\assets\images\light-box\l6.jpg" />
+    <None Include="wwwroot\assets\images\light-box\mixin.jpg" />
+    <None Include="wwwroot\assets\images\light-box\sl1.jpg" />
+    <None Include="wwwroot\assets\images\light-box\sl2.jpg" />
+    <None Include="wwwroot\assets\images\light-box\sl3.jpg" />
+    <None Include="wwwroot\assets\images\light-box\sl4.jpg" />
+    <None Include="wwwroot\assets\images\light-box\sl5.jpg" />
+    <None Include="wwwroot\assets\images\light-box\sl6.jpg" />
+    <None Include="wwwroot\assets\images\light-box\smixin.jpg" />
+    <None Include="wwwroot\assets\images\light-box\v1.jpg" />
+    <None Include="wwwroot\assets\images\light-box\v2.jpg" />
+    <None Include="wwwroot\assets\images\light-box\v3.jpg" />
+    <None Include="wwwroot\assets\images\light-box\v4.jpg" />
+    <None Include="wwwroot\assets\images\loading.gif" />
+    <None Include="wwwroot\assets\images\logo-dark.png" />
+    <None Include="wwwroot\assets\images\logo-docs.png" />
+    <None Include="wwwroot\assets\images\logo-icon.png" />
+    <None Include="wwwroot\assets\images\logo-old.png" />
+    <None Include="wwwroot\assets\images\logo-thumb.png" />
+    <None Include="wwwroot\assets\images\logo.png" />
+    <None Include="wwwroot\assets\images\maintance\404.png" />
+    <None Include="wwwroot\assets\images\maintance\maintance.png" />
+    <None Include="wwwroot\assets\images\maintance\sark.svg" />
+    <None Include="wwwroot\assets\images\maintance\ship.svg" />
+    <None Include="wwwroot\assets\images\maintance\sparcle-1.png" />
+    <None Include="wwwroot\assets\images\maintance\sparcle-2.png" />
+    <None Include="wwwroot\assets\images\next.png" />
+    <None Include="wwwroot\assets\images\prev.png" />
+    <None Include="wwwroot\assets\images\product\prod-1.jpg" />
+    <None Include="wwwroot\assets\images\profile\bg-1.jpg" />
+    <None Include="wwwroot\assets\images\profile\bg-2.jpg" />
+    <None Include="wwwroot\assets\images\profile\bg-3.jpg" />
+    <None Include="wwwroot\assets\images\profile\bg-4.jpg" />
+    <None Include="wwwroot\assets\images\profile\cover.jpg" />
+    <None Include="wwwroot\assets\images\slider\img-slide-1.jpg" />
+    <None Include="wwwroot\assets\images\slider\img-slide-2.jpg" />
+    <None Include="wwwroot\assets\images\slider\img-slide-3.jpg" />
+    <None Include="wwwroot\assets\images\slider\img-slide-4.jpg" />
+    <None Include="wwwroot\assets\images\slider\img-slide-5.jpg" />
+    <None Include="wwwroot\assets\images\slider\img-slide-6.jpg" />
+    <None Include="wwwroot\assets\images\slider\img-slide-7.jpg" />
+    <None Include="wwwroot\assets\images\ticket\p1.jpg" />
+    <None Include="wwwroot\assets\images\ticket\p2.jpg" />
+    <None Include="wwwroot\assets\images\ticket\p3.jpg" />
+    <None Include="wwwroot\assets\images\ticket\p4.jpg" />
+    <None Include="wwwroot\assets\images\ticket\p5.jpg" />
+    <None Include="wwwroot\assets\images\user\avatar-1.jpg" />
+    <None Include="wwwroot\assets\images\user\avatar-2.jpg" />
+    <None Include="wwwroot\assets\images\user\avatar-3.jpg" />
+    <None Include="wwwroot\assets\images\user\avatar-4.jpg" />
+    <None Include="wwwroot\assets\images\user\avatar-5.jpg" />
+    <None Include="wwwroot\assets\images\user\cover.jpg" />
+    <None Include="wwwroot\assets\images\user\img-avatar-1.jpg" />
+    <None Include="wwwroot\assets\images\user\img-avatar-2.jpg" />
+    <None Include="wwwroot\assets\images\user\img-avatar-3.jpg" />
+    <None Include="wwwroot\assets\images\widget\AUSTRALIA.jpg" />
+    <None Include="wwwroot\assets\images\widget\blur-bg.png" />
+    <None Include="wwwroot\assets\images\widget\BRAZIL.jpg" />
+    <None Include="wwwroot\assets\images\widget\dashborad-1.jpg" />
+    <None Include="wwwroot\assets\images\widget\dashborad-2.jpg" />
+    <None Include="wwwroot\assets\images\widget\dashborad-3.jpg" />
+    <None Include="wwwroot\assets\images\widget\dashborad-4.jpg" />
+    <None Include="wwwroot\assets\images\widget\dashborad-5.jpg" />
+    <None Include="wwwroot\assets\images\widget\emoticon.jpg" />
+    <None Include="wwwroot\assets\images\widget\GERMANY.jpg" />
+    <None Include="wwwroot\assets\images\widget\img-round1.jpg" />
+    <None Include="wwwroot\assets\images\widget\p1.jpg" />
+    <None Include="wwwroot\assets\images\widget\p2.jpg" />
+    <None Include="wwwroot\assets\images\widget\p3.jpg" />
+    <None Include="wwwroot\assets\images\widget\p4.jpg" />
+    <None Include="wwwroot\assets\images\widget\PHONE1.jpg" />
+    <None Include="wwwroot\assets\images\widget\PHONE2.jpg" />
+    <None Include="wwwroot\assets\images\widget\PHONE3.jpg" />
+    <None Include="wwwroot\assets\images\widget\PHONE4.jpg" />
+    <None Include="wwwroot\assets\images\widget\profile-person1.jpg" />
+    <None Include="wwwroot\assets\images\widget\slider5.jpg" />
+    <None Include="wwwroot\assets\images\widget\slider6.jpg" />
+    <None Include="wwwroot\assets\images\widget\slider7.jpg" />
+    <None Include="wwwroot\assets\images\widget\UK.jpg" />
+    <None Include="wwwroot\assets\images\widget\USA.jpg" />
+    <None Include="wwwroot\assets\images\widget\user-blur-bg.png" />
+    <None Include="wwwroot\assets\images\widget\wather2bottom.png" />
+    <None Include="wwwroot\assets\images\widget\watherbottom.png" />
+    <None Include="wwwroot\assets\images\widget\wathernature.png" />
+    <None Include="wwwroot\assets\images\widget\watherstar1.png" />
+    <None Include="wwwroot\assets\images\widget\watherstar2.png" />
+    <None Include="wwwroot\assets\json\2500.txt" />
+    <None Include="wwwroot\assets\json\file-upload.php" />
+    <None Include="wwwroot\assets\js\analytics.js" />
+    <None Include="wwwroot\assets\js\analytics.min.js" />
+    <None Include="wwwroot\assets\js\horizontal-menu.js" />
+    <None Include="wwwroot\assets\js\pages\chart-apex.js" />
+    <None Include="wwwroot\assets\js\pages\dashboard-main.js" />
+    <None Include="wwwroot\assets\js\pages\google-maps.js" />
+    <None Include="wwwroot\assets\js\pcoded.js" />
+    <None Include="wwwroot\assets\js\pcoded.min.js" />
+    <None Include="wwwroot\assets\js\plugins\apexcharts.min.js" />
+    <None Include="wwwroot\assets\js\plugins\bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\plugins\gmaps.min.js" />
+    <None Include="wwwroot\assets\js\plugins\jquery-ui.min.js" />
+    <None Include="wwwroot\assets\js\plugins\perfect-scrollbar.min.js" />
+    <None Include="wwwroot\assets\js\plugins\prism.js" />
+    <None Include="wwwroot\assets\js\uikit.js" />
+    <None Include="wwwroot\assets\js\uikit.min.js" />
+    <None Include="wwwroot\assets\js\vendor-all.js" />
+    <None Include="wwwroot\assets\js\vendor-all.min.js" />
+  </ItemGroup>
+
+</Project>

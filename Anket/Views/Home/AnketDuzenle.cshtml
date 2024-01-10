@@ -1,0 +1,143 @@
+﻿@model List<Anket.Models.AnketCekModel>
+
+@{
+    ViewData["Title"] = "Anket Düzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-sm-12">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Düzenlenecek Anket Seçiniz...</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="">--- Anket Seçin ---</option>
+                            @foreach (var anket in Model)
+                            {
+                                <option value="@anket.AnketAdi" data-anketid="@anket.AnketId">@anket.AnketAdi</option>
+                            }
+                        </select>
+                        <!-- AnketId'yi hidden input olarak ekleyin -->
+                        <input type="hidden" id="anketIdHidden" />
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="anketVerileri">
+                <!-- Anket verilerinin gösterileceği alan -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#exampleFormControlSelect1').change(function () {
+            var selectedAnket = $(this).val();
+            var selectedAnketId = $('#exampleFormControlSelect1 option:selected').data('anketid');
+
+            if (selectedAnket !== "") {
+                $.ajax({
+                    url: '/AnketCek/AnketCek',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ anketAdi: selectedAnket }),
+                    success: function (result) {
+                        // Ankete ait verileri gösterilen alandaki içeriği temizle
+                        $('#anketVerileri').empty();
+
+                        // Anket verilerini göstermek için bir döngü
+                        for (var key in result.anketVerileri) {
+                            if (result.anketVerileri.hasOwnProperty(key) && key !== "anketId") {
+                                var html = '<div class="col-sm-12">';
+                                html += '<label>' + key + '</label>';
+
+                                // Inputların name ve id değerlerini JSON yanıtına göre ayarla
+                                var inputName = key.toLowerCase(); // Örnek: "soru1"
+                                var inputId = key.toLowerCase();   // Örnek: "soru1"
+
+                                // Tarih alanlarını date input olarak oluşturun
+                                if (key.includes("Tarih")) {
+                                    html += '<input type="date" class="form-control" value="' + result.anketVerileri[key].substr(0, 10) + '" name="' + inputName + '" id="' + inputId + '" />';
+                                } else {
+                                    html += '<input type="text" class="form-control" value="' + result.anketVerileri[key] + '" name="' + inputName + '" id="' + inputId + '" />';
+                                }
+
+                                html += '</div>';
+
+                                // Ankete ait verileri gösterilen alana ekleyin
+                                $('#anketVerileri').append(html);
+                            }
+                        }
+
+                        // Ankete ait verileri gösterilen alana bir kere ekledikten sonra butonu ekleyin
+                        $('#anketVerileri').append('<div class="col-sm-12"><div class="form-group"><button class="btn btn-block btn-primary mb-4 mt-2" id="anketGuncelleBtn">Anket Güncelle</button></div></div>');
+
+                        // AnketId'yi hidden input alanına atayın
+                        $('#anketIdHidden').val(selectedAnketId);
+                    },
+                    error: function (error) {
+                        console.log(error);
+                    }
+                });
+            }
+        });
+
+        // Anket güncelle butonuna tıklama olayını ekle (Delegasyon kullanarak)
+        $('body').on('click', '#anketGuncelleBtn', function () {
+            // Burada ankete ait verileri ve AnketId'yi toplayabilir ve istediğiniz işlemleri yapabilirsiniz
+            var anketId = $('#anketIdHidden').val();
+            var AnketAdi = $('#anketadi').val();
+            var BaslangicTarih = $('#baslangictarih').val();
+            var BitisTarih = $('#bitistarih').val();
+            var Soru1 = $('#soru1').val();
+            var Soru2 = $('#soru2').val();
+            var Soru3 = $('#soru3').val();
+            var Soru4 = $('#soru4').val();
+            var Soru5 = $('#soru5').val();
+            var Soru6 = $('#soru6').val();
+            var Soru7 = $('#soru7').val();
+            var Soru8 = $('#soru8').val();
+            var Soru9 = $('#soru9').val();
+            var Soru10 = $('#soru10').val();
+
+            // JSON verilerini sunucuya gönder
+            $.ajax({
+                url: '/AnketCek/AnketGuncelle',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    anketId: anketId,
+                    AnketAdi: AnketAdi,
+                    BaslangicTarih: BaslangicTarih,
+                    BitisTarih: BitisTarih,
+                    Soru1: Soru1,
+                    Soru2: Soru2,
+                    Soru3: Soru3,
+                    Soru4: Soru4,
+                    Soru5: Soru5,
+                    Soru6: Soru6,
+                    Soru7: Soru7,
+                    Soru8: Soru8,
+                    Soru9: Soru9,
+                    Soru10: Soru10
+                }),
+                success: function (response) {
+                    // Sunucudan gelen cevapla istediğiniz işlemleri yapabilirsiniz
+                    console.log(response);
+                    alert(response);
+                },
+                error: function (error) {
+                    console.log(error);
+                    alert(error);
+                }
+            });
+        });
+
+    });
+</script>
+
+
+

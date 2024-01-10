@@ -1,0 +1,87 @@
+﻿@{
+	ViewData["Title"] = "Anket Oluştur";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-sm-12">
+	<div class="card">
+		<div class="card-body">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="form-group">
+						<label class="floating-label" for="Text">Anket Adı</label>
+						<input type="text" class="form-control" name="anketadi" id="anketadi" required>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@for (int i = 1; i <= 10; i++)
+{
+	<div class="col-sm-12">
+		<div class="card">
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="form-group">
+							<label class="floating-label" for="Text">Soru @(i)</label>
+							<input type="text" class="form-control" name="soru@(i)" id="soru@(i)" required>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+}
+
+<!-- Anket oluştur butonu -->
+<div class="col-sm-12">
+	<div class="card">
+		<div class="card-body">
+			<div class="form-group">
+				<button class="btn btn-block btn-primary mb-4" id="btnAnketOlustur">Anket Oluştur</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+	$(document).ready(function () {
+		$("#btnAnketOlustur").click(function () {
+			var formData = {
+				anketAdi: $("#anketadi").val(),
+				soru1: $("#soru1").val(),
+				soru2: $("#soru2").val(),
+				soru3: $("#soru3").val(),
+				soru4: $("#soru4").val(),
+				soru5: $("#soru5").val(),
+				soru6: $("#soru6").val(),
+				soru7: $("#soru7").val(),
+				soru8: $("#soru8").val(),
+				soru9: $("#soru9").val(),
+				soru10: $("#soru10").val()
+			};
+
+			$.ajax({
+				url: '/AnketEkle/AnketOlustur',
+				type: 'POST',
+				contentType: 'application/json',
+				data: JSON.stringify(formData),
+				success: function (response) {
+					console.log(response);
+					if (response.success) {
+						alert(response.message);
+					} else {
+						alert("Anket oluşturulurken bir hata oluştu.");
+					}
+				},
+				error: function (error) {
+					console.log(error);
+				}
+			});
+		});
+	});
+</script>

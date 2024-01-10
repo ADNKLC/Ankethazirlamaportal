@@ -1,0 +1,781 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Anket.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Anket.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\css\\layout-dark.css",
+      "PackagePath": "staticwebassets\\assets\\css\\layout-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\css\\layout-rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\layout-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\css\\plugins\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\css\\plugins\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\css\\plugins\\prism-coy.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\prism-coy.css"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\feather.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\feather.eot"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\feather.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\feather.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\feather.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\feather.ttf"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\feather.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\feather.woff"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFUZ0bbck.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFUZ0bbck.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFVZ0b.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFVZ0b.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFVp0bbck.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFVp0bbck.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFW50bbck.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFW50bbck.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWJ0bbck.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWJ0bbck.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWZ0bbck.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWZ0bbck.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWp0bbck.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWp0bbck.woff2"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\pct.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\pct.eot"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\pct.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\pct.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\pct.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\pct.ttf"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\fonts\\pct.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\pct.woff"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\auth\\auth-logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\auth-logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\auth\\auth-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\auth-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\auth\\img-auth-big.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\img-auth-big.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\browser\\chrome.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\chrome.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\browser\\firefox.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\firefox.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\browser\\ie.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\ie.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\browser\\opera.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\opera.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\browser\\safari.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\safari.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\cd-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\cd-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\complete.png",
+      "PackagePath": "staticwebassets\\assets\\images\\complete.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\img-grd-gal-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\img-grd-gal-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\img-grd-gal-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\img-grd-gal-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\img-grd-gal-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\img-grd-gal-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\img-grd-gal-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\img-grd-gal-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\img-grd-gal-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\img-grd-gal-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\img-grd-gal-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\img-grd-gal-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\masonry-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\masonry-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\masonry-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\masonry-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\masonry-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\masonry-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\masonry-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\masonry-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\masonry-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\masonry-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\masonry-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\masonry-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\masonry-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\masonry-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\gallery-grid\\masonry-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery-grid\\masonry-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\hover-effect\\triangle.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\hover-effect\\triangle.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\hover-effect\\triangle2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\hover-effect\\triangle2.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\l1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\l2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\l3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\l4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\l5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\l6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\mixin.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\mixin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\sl1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\sl2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\sl3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\sl4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\sl5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\sl6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\smixin.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\smixin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\v1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\v2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\v3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\v3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\light-box\\v4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\light-box\\v4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\logo-docs.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-docs.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\logo-old.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-old.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\logo-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\maintance\\404.png",
+      "PackagePath": "staticwebassets\\assets\\images\\maintance\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\maintance\\maintance.png",
+      "PackagePath": "staticwebassets\\assets\\images\\maintance\\maintance.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\maintance\\sark.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\maintance\\sark.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\maintance\\ship.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\maintance\\ship.svg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\maintance\\sparcle-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\maintance\\sparcle-1.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\maintance\\sparcle-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\maintance\\sparcle-2.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\assets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\product\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\prod-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\profile\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profile\\bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\profile\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profile\\bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\profile\\bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profile\\bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\profile\\bg-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profile\\bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\profile\\cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profile\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\slider\\img-slide-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\slider\\img-slide-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\slider\\img-slide-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\slider\\img-slide-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\slider\\img-slide-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\slider\\img-slide-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\slider\\img-slide-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\ticket\\p1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ticket\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\ticket\\p2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ticket\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\ticket\\p3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ticket\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\ticket\\p4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ticket\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\ticket\\p5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ticket\\p5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\img-avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\img-avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\img-avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\img-avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\user\\img-avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\img-avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\AUSTRALIA.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\AUSTRALIA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\BRAZIL.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\BRAZIL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\GERMANY.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\GERMANY.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\PHONE1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\PHONE1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\PHONE2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\PHONE2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\PHONE3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\PHONE3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\PHONE4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\PHONE4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\UK.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\UK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\USA.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\USA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\blur-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\blur-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\dashborad-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\dashborad-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\dashborad-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\dashborad-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\dashborad-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\dashborad-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\dashborad-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\dashborad-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\dashborad-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\dashborad-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\emoticon.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\emoticon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\img-round1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\img-round1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\p1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\p2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\p3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\p4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\profile-person1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\profile-person1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\slider5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\slider5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\slider6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\slider6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\slider7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\slider7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\user-blur-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\user-blur-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\wather2bottom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\wather2bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\watherbottom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\watherbottom.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\wathernature.png",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\wathernature.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\watherstar1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\watherstar1.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\images\\widget\\watherstar2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\widget\\watherstar2.png"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\analytics.js",
+      "PackagePath": "staticwebassets\\assets\\js\\analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\analytics.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\analytics.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\horizontal-menu.js",
+      "PackagePath": "staticwebassets\\assets\\js\\horizontal-menu.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\pages\\chart-apex.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\chart-apex.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\pages\\dashboard-main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\dashboard-main.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\pages\\google-maps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\google-maps.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\pcoded.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pcoded.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\plugins\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\plugins\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\plugins\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\plugins\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\plugins\\prism.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\prism.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\uikit.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uikit.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\uikit.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uikit.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\vendor-all.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor-all.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\js\\vendor-all.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\json\\2500.txt",
+      "PackagePath": "staticwebassets\\assets\\json\\2500.txt"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\json\\cities.json",
+      "PackagePath": "staticwebassets\\assets\\json\\cities.json"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\json\\citynames.json",
+      "PackagePath": "staticwebassets\\assets\\json\\citynames.json"
+    },
+    {
+      "Id": "C:\\Users\\adnan\\OneDrive\\Masaüstü\\Anket\\wwwroot\\assets\\json\\file-upload.php",
+      "PackagePath": "staticwebassets\\assets\\json\\file-upload.php"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Anket.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Anket.props",
+      "PackagePath": "build\\Anket.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Anket.props",
+      "PackagePath": "buildMultiTargeting\\Anket.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Anket.props",
+      "PackagePath": "buildTransitive\\Anket.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

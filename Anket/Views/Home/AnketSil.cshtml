@@ -1,0 +1,57 @@
+﻿@model List<Anket.Models.AnketCekModel>
+
+@{
+	ViewData["Title"] = "Anket Sil";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-sm-12">
+	<div class="card">
+		<div class="card-body">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="form-group">
+						<label for="exampleFormControlSelect1">Düzenlenecek Anket Seçiniz...</label>
+						<select class="form-control" id="exampleFormControlSelect1">
+							<option value="">--- Anket Seçin ---</option>
+							@foreach (var anket in Model)
+							{
+								<option value="@anket.AnketAdi" data-anketid="@anket.AnketId">@anket.AnketAdi</option>
+							}
+						</select>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-block btn-primary mb-4 mt-2" id="anketSilBtn">Anket Sil</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+	$(document).ready(function () {
+		$('#anketSilBtn').click(function () {
+			var selectedAnketId = $('#exampleFormControlSelect1 option:selected').data('anketid');
+
+			if (selectedAnketId !== undefined && selectedAnketId !== null) {
+				$.ajax({
+					url: '/AnketCek/AnketSil',
+					type: 'POST',
+					contentType: 'application/json',
+					data: JSON.stringify(selectedAnketId),
+					success: function (result) {
+						// İşlem başarılı ise gerekli aksiyonları buraya ekleyebilirsiniz.
+						alert(result.message);
+						location.reload();
+					},
+					error: function (error) {
+						alert(error.message);
+					}
+				});
+			}
+		});
+	});
+
+</script>
